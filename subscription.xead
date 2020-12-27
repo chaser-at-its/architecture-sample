@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System DDLAdditionalParms="     created_at timestamp without time zone NOT NULL,&#xa;     updated_at timestamp without time zone NOT NULL,&#xa;     updated_by CHAR(254) NOT NULL" DDLCommentMark="--" DDLCommentWithAlias="0" DDLConvertCamel="false" DDLIgnoreFK="false" DDLSectionMark=";" Descriptions="" DocFileFormat="" FormatVersion="1.2 " Name="サブスク課金システム" RefFiles="" UseTableNameToCreateTable="false" Version="0.0.1">
+  <Department Descriptions="" ID="1" Name="未指定" SortKey="000"/>
+  <TableType Descriptions="" ID="1" Name="未指定" SortKey="000"/>
+  <DataType BasicType="Date" Decimal="0" ID="2" Length="0" Name="日時" SQLExpression="datetime" SortKey="datetime"/>
+  <DataType BasicType="UnsignedNumber" Decimal="0" ID="3" Length="0" Name="ID" SQLExpression="bigint" SortKey="id"/>
+  <DataType BasicType="String" Decimal="0" ID="5" Length="50" Name="区分" SQLExpression="varchar(50)" SortKey="type"/>
+  <DataType BasicType="SignedNumber" Decimal="4" ID="6" Length="20" Name="金額数値" SQLExpression="numeric(20, 4)" SortKey="money"/>
+  <DataType BasicType="Date" Decimal="0" ID="7" Length="0" Name="日付" SQLExpression="date" SortKey="date"/>
+  <DataType BasicType="Boolean" Decimal="0" ID="8" Length="1" Name="フラグ" SQLExpression="boolean" SortKey="flag"/>
+  <DataType BasicType="String" Decimal="0" ID="9" Length="7" Name="郵便番号" SQLExpression="varchar(7)" SortKey="postal_code"/>
+  <DataType BasicType="String" Decimal="0" ID="10" Length="0" Name="文字列" SQLExpression="text" SortKey="text"/>
+  <DataType BasicType="String" Decimal="0" ID="11" Length="11" Name="電話番号" SQLExpression="varchar(11)" SortKey="phone_number"/>
+  <DataType BasicType="SignedNumber" Decimal="0" ID="12" Length="10" Name="数量" SQLExpression="numeric(4)" SortKey="quantity"/>
+  <DataType BasicType="String" Decimal="0" ID="13" Length="17" Name="契約番号" SQLExpression="char(17)" SortKey="contract_number"/>
+  <DataType BasicType="String" Decimal="0" ID="14" Length="254" Name="Eメール" SQLExpression="varchar(254)" SortKey="email"/>
+  <DataType BasicType="UnsignedNumber" Decimal="0" ID="15" Length="0" Name="行番号" SQLExpression="smallint" SortKey="row_no"/>
+  <FunctionType Descriptions="" ID="1" Name="未指定" SortKey="000"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<MaintenanceLog Descriptions="新規追加" Headder="0.0.1" ID="0001" SortKey="20200626"/><Subsystem DatamodelDescriptions="" Descriptions="" ID="2" Name="システム管理" SortKey="1">
+    <SubsystemTable BoxPosition="56,56" ExtDivLoc="496" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="13"/>
+  </Subsystem><Subsystem DatamodelDescriptions="" Descriptions="" ID="1" Name="売上回収管理" SortKey="3">
+    
+    <SubsystemTable BoxPosition="280,152" ExtDivLoc="963" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="2"/>
+    
+    <SubsystemTable BoxPosition="56,24" ExtDivLoc="789" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="3"/>
+    
+    
+    <SubsystemTable BoxPosition="344,264" ExtDivLoc="526" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="7"/>
+    
+
+    
+
+
+    <SubsystemTable BoxPosition="536,520" ExtDivLoc="352" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="10"/>
+    <SubsystemTable BoxPosition="488,424" ExtDivLoc="784" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="11"/>
+    <SubsystemTable BoxPosition="584,568" ExtDivLoc="698" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="12"/>
+    
+
+
+    <SubsystemRelationship RelationshipID="15" ShowOnModel="true" TerminalIndex1="14" TerminalIndex2="21"/>
+    
+    
+    <SubsystemRelationship RelationshipID="17" ShowOnModel="true" TerminalIndex1="16" TerminalIndex2="19"/>
+    <SubsystemTable BoxPosition="424,312" ExtDivLoc="1062" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="9"/>
+    <SubsystemRelationship RelationshipID="21" ShowOnModel="true" TerminalIndex1="13" TerminalIndex2="20"/>
+    <SubsystemRelationship RelationshipID="27" ShowOnModel="true" TerminalIndex1="16" TerminalIndex2="21"/>
+    <SubsystemRelationship RelationshipID="29" ShowOnModel="true" TerminalIndex1="11" TerminalIndex2="21"/>
+    
+    <SubsystemTable BoxPosition="552,744" ExtDivLoc="426" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="14"/>
+    <SubsystemRelationship RelationshipID="32" ShowOnModel="true" TerminalIndex1="16" TerminalIndex2="20"/>
+    <SubsystemTable BoxPosition="648,696" ExtDivLoc="434" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="15"/>
+    
+    <SubsystemRelationship RelationshipID="35" ShowOnModel="true" TerminalIndex1="24" TerminalIndex2="19"/>
+    
+  <SubsystemRelationship RelationshipID="42" ShowOnModel="true" TerminalIndex1="16" TerminalIndex2="19"/><SubsystemRelationship RelationshipID="43" ShowOnModel="true" TerminalIndex1="17" TerminalIndex2="21"/><SubsystemRelationship RelationshipID="44" ShowOnModel="true" TerminalIndex1="16" TerminalIndex2="20"/><SubsystemRelationship RelationshipID="45" ShowOnModel="true" TerminalIndex1="17" TerminalIndex2="22"/><SubsystemTable BoxPosition="200,104" ExtDivLoc="400" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="1"/><SubsystemRelationship RelationshipID="1" ShowOnModel="true" TerminalIndex1="15" TerminalIndex2="20"/><SubsystemRelationship RelationshipID="30" ShowOnModel="true" TerminalIndex1="17" TerminalIndex2="19"/><SubsystemTable BoxPosition="702,90" ExtDivLoc="496" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="false" TableID="13"/></Subsystem><Subsystem DatamodelDescriptions="" Descriptions="" ID="3" Name="サブスクリプション管理" SortKey="2">
+    <SubsystemTable BoxPosition="152,120" ExtDivLoc="400" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="1"/>
+    <SubsystemTable BoxPosition="216,168" ExtDivLoc="963" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="2"/>
+    <SubsystemRelationship RelationshipID="1" ShowOnModel="true" TerminalIndex1="17" TerminalIndex2="20"/>
+    <SubsystemTable BoxPosition="72,40" ExtDivLoc="789" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="3"/>
+    
+    
+    
+    
+    
+    
+    <SubsystemTable BoxPosition="152,328" ExtDivLoc="526" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="7"/>
+    <SubsystemRelationship RelationshipID="21" ShowOnModel="true" TerminalIndex1="17" TerminalIndex2="20"/>
+    <SubsystemTable BoxPosition="232,280" ExtDivLoc="1062" Instance="" IntDivLoc="300" ShowInstance="false" ShowOnModel="true" TableID="9"/>
+    <SubsystemRelationship RelationshipID="29" ShowOnModel="true" TerminalIndex1="24" TerminalIndex2="20"/>
+    <SubsystemRelationship RelationshipID="30" ShowOnModel="true" TerminalIndex1="17" TerminalIndex2="20"/>
+  </Subsystem><Table Alias="services" Descriptions="" ID="1" Name="サービス" SortKey="031" SubsystemID="3" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="name" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="2" Name="名称" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+
+
+    <TableField Alias="start_date" AttributeType="DERIVABLE" DataTypeID="7" Default="" Descriptions="料金(子テーブル)のmin(開始日)を設定する。" ID="5" Name="開始日" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0030"/>
+    <TableField Alias="end_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="基準日が終了日を過ぎた場合、選択肢に表示しない。" ID="6" Name="終了日" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0040"/><TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="2" SortKey="010" Type="SK">
+      <TableKeyField FieldID="2" SortKey="0010"/>
+    </TableKey>
+  </Table><Table Alias="rates" Descriptions="参照する売上がある場合、「請求名称」以外更新不可、削除不可。" ID="2" Name="料金" SortKey="032" SubsystemID="3" SynchFile="" TableTypeID="1">
+
+
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="3" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="cycle_type" AttributeType="NATIVE" DataTypeID="5" Default="" Descriptions="初回：'init'、都度：'each'、月次：'month'、年次：'year'#EOL#「都度」の場合、料金は登録画面に表示する初期値でしかない。登録画面で編集できる。" ID="5" Name="請求周期区分" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    <TableField Alias="service_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="6" Name="サービスID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+    <TableField Alias="start_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="サービスに終了日が設定されている場合、それを超える開始日は設定できない。" ID="7" Name="開始日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+    <TableField Alias="price" AttributeType="NATIVE" DataTypeID="6" Default="" Descriptions="" ID="8" Name="売価" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0060"/>
+    <TableField Alias="billing_name" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="10" Name="請求名称" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0050"/>
+    <TableField Alias="prorated" AttributeType="NATIVE" DataTypeID="8" Default="false" Descriptions="請求周期が「初回」、「都度」の場合、falseを設定する。" ID="11" Name="日割有無" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0080"/>
+    <TableField Alias="tax_type" AttributeType="NATIVE" DataTypeID="7" Default="’’" Descriptions="" ID="12" Name="税率区分" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0070"/>
+    <TableField Alias="prepaid_months" AttributeType="NATIVE" DataTypeID="12" Default="" Descriptions="請求周期区分が「月次」の場合、必須、そうでない場合、NULL。#EOL#当月を含む前払月数を設定する。契約明細で当該項目の初期値に使用する。" ID="13" Name="前払月数" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0090"/><TableField Alias="renewal_date_offset" AttributeType="NATIVE" DataTypeID="12" Default="" Descriptions="請求周期区分が「年次」の場合、必須、そうでない場合、NULL。#EOL#年次請求する料金を、年次更新期日から何ヶ月前に請求するかコントロールするオフセット値。契約明細で当該項目の初期値に使用する。#EOL#例えば初回請求が20年6月の場合、0⇒21年5月請求、-1⇒21年4月請求、-2⇒21年3月請求…" ID="14" Name="更新期日オフセット" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0100"/><TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="3" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="2" SortKey="010" Type="SK">
+      <TableKeyField FieldID="6" SortKey="0010"/>
+      <TableKeyField FieldID="5" SortKey="0020"/>
+      <TableKeyField FieldID="7" SortKey="0030"/>
+    </TableKey>
+    <TableKey ID="3" SortKey="010" Type="SK">
+      <TableKeyField FieldID="6" SortKey="0010"/>
+      <TableKeyField FieldID="10" SortKey="0020"/>
+    </TableKey>
+  </Table><Table Alias="members" Descriptions="" ID="3" Name="会員" SortKey="011" SubsystemID="3" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="name" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="2" Name="名前" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+    
+
+
+    <TableField Alias="name_kana" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="6" Name="名前カナ" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    <TableField Alias="email" AttributeType="NATIVE" DataTypeID="14" Default="" Descriptions="" ID="7" Name="Eメールアドレス" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0040"/><TableField Alias="phone_number" AttributeType="NATIVE" DataTypeID="11" Default="" Descriptions="" ID="8" Name="電話番号" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0050"/><TableField Alias="postal_code" AttributeType="NATIVE" DataTypeID="9" Default="" Descriptions="" ID="9" Name="郵便番号" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0060"/><TableField Alias="prefecture" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="10" Name="都道府県" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0070"/><TableField Alias="city" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="11" Name="市区町村" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0080"/><TableField Alias="street" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="12" Name="番地等" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0090"/><TableField Alias="building" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="13" Name="建物等" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0100"/><TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+  </Table><Table Alias="contracts" Descriptions="" ID="7" Name="契約" SortKey="021" SubsystemID="3" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="number" AttributeType="NATIVE" DataTypeID="13" Default="" Descriptions="" ID="2" Name="契約番号" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+
+
+    <TableField Alias="cancellation_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="5" Name="解約受付日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0050"/>
+    <TableField Alias="agreement_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="6" Name="契約締結日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+
+
+    <TableField Alias="member_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="9" Name="会員ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    <TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="2" SortKey="010" Type="SK">
+      <TableKeyField FieldID="2" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="3" SortKey="010" Type="FK">
+      <TableKeyField FieldID="9" SortKey="0010"/>
+    </TableKey>
+  </Table><Table Alias="contract_details" Descriptions="サービス数量を持たないのは、課金終了日を個別に管理するため。同じサービスが同時に複数申し込まれた場合、明細を分けて登録する。#EOL#参照する売上がある場合、「請求項目名修飾」以外更新不可、削除不可。" ID="9" Name="契約明細" SortKey="022" SubsystemID="3" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="service_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="3" Name="サービスID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+    <TableField Alias="prepaid_months" AttributeType="NATIVE" DataTypeID="12" Default="" Descriptions="料金の説明を参照" ID="4" Name="前払月数" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0070"/>
+    <TableField Alias="init_paid" AttributeType="NATIVE" DataTypeID="8" Default="false" Descriptions="" ID="5" Name="初期費用支払済" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0090"/>
+    <TableField Alias="contract_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="6" Name="契約ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+
+
+    <TableField Alias="no" AttributeType="NATIVE" DataTypeID="15" Default="" Descriptions="" ID="7" Name="明細番号" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    <TableField Alias="start_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="9" Name="課金開始日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0050"/>
+    <TableField Alias="end_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="10" Name="課金終了日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0060"/>
+    <TableField Alias="billing_name_modify" AttributeType="NATIVE" DataTypeID="13" Default="" Descriptions="同一サービスを複数登録する場合、請求書に表示される名称を見分けるために登録する。登録された文字列を、料金の請求名称に後置する。" ID="11" Name="請求項目名修飾" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0100"/>
+    <TableField Alias="renewal_date_offset" AttributeType="NATIVE" DataTypeID="12" Default="" Descriptions="料金の説明を参照" ID="12" Name="更新期日オフセット" NoUpdate="false" NotNull="false" ShowOnModel="true" SortKey="0080"/><TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+
+    <TableKey ID="2" SortKey="010" Type="SK">
+      <TableKeyField FieldID="6" SortKey="0010"/>
+      <TableKeyField FieldID="7" SortKey="0020"/>
+    </TableKey>
+    <TableKey ID="3" SortKey="010" Type="SK">
+      <TableKeyField FieldID="6" SortKey="0010"/>
+      <TableKeyField FieldID="3" SortKey="0020"/>
+      <TableKeyField FieldID="9" SortKey="0030"/>
+    </TableKey>
+    <TableKey ID="4" SortKey="010" Type="FK">
+      <TableKeyField FieldID="3" SortKey="0010"/>
+    </TableKey>
+  </Table><Table Alias="billings" Descriptions="明細が存在する場合、削除不可。" ID="10" Name="請求" SortKey="042" SubsystemID="1" SynchFile="" TableTypeID="1">
+    <TableField Alias="member_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="会員ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="2" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="date" AttributeType="NATIVE" DataTypeID="13" Default="" Descriptions="" ID="3" Name="請求日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+
+
+    <TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="2" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="3" SortKey="010" Type="SK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+      <TableKeyField FieldID="3" SortKey="0020"/>
+    </TableKey>
+  </Table><Table Alias="sales" Descriptions="参照する請求が作成済である場合、更新、削除不可。" ID="11" Name="売上" SortKey="041" SubsystemID="1" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="contract_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="2" Name="契約ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0090"/>
+    <TableField Alias="date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="3" Name="売上日" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+    <TableField Alias="unit_price" AttributeType="NATIVE" DataTypeID="6" Default="" Descriptions="日割りによって料金テーブルの売価と変わるため。" ID="4" Name="販売単価" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0050"/>
+    <TableField Alias="quantity" AttributeType="NATIVE" DataTypeID="12" Default="1" Descriptions="" ID="5" Name="数量" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0060"/>
+    <TableField Alias="tax" AttributeType="NATIVE" DataTypeID="6" Default="0" Descriptions="" ID="6" Name="税額" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0080"/>
+    <TableField Alias="rate_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="7" Name="料金ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0110"/>
+    <TableField Alias="discount" AttributeType="NATIVE" DataTypeID="6" Default="0" Descriptions="" ID="8" Name="値引額" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0070"/>
+
+
+    <TableField Alias="billing_name" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="11" Name="請求名称" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+    <TableField Alias="billing_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="省略された場合、売上日の翌月1日を設定する。" ID="12" Name="請求日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    
+    
+    
+    <TableField Alias="contract_detail_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="契約明細を根拠とする売上を計上する場合、設定する。" ID="17" Name="契約明細ID" NoUpdate="true" NotNull="false" ShowOnModel="true" SortKey="0100"/><TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="2" SortKey="1" Type="FK">
+      <TableKeyField FieldID="2" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="3" SortKey="3" Type="FK">
+      <TableKeyField FieldID="7" SortKey="0010"/>
+    </TableKey>
+    
+    
+  <TableKey ID="4" SortKey="2" Type="FK"><TableKeyField FieldID="17" SortKey="0010"/></TableKey></Table><Table Alias="billing_details" Descriptions="参照する入金割付がある場合、更新、削除不可。#EOL#作成時に、請求明細区分が「通常」、「滞納金」で未消込の明細がある場合、未消込残高を、請求明細区分：「滞納金」として明細に追加する。元の明細は、請求明細区分：「繰越済」に更新する。" ID="12" Name="請求明細" SortKey="043" SubsystemID="1" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="billing_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="2" Name="請求ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+
+
+
+    <TableField Alias="amount" AttributeType="NATIVE" DataTypeID="13" Default="" Descriptions="" ID="6" Name="税抜明細額" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0060"/>
+    <TableField Alias="no" AttributeType="NATIVE" DataTypeID="15" Default="" Descriptions="" ID="7" Name="明細番号" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+    
+    <TableField Alias="tax" AttributeType="NATIVE" DataTypeID="6" Default="" Descriptions="" ID="10" Name="税額" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0070"/><TableField Alias="type" AttributeType="NATIVE" DataTypeID="5" Default="" Descriptions="通常済、滞納金、繰越" ID="12" Name="請求明細区分" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0020"/><TableField Alias="sales_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="13" Name="売上ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0080"/><TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="2" SortKey="010" Type="SK">
+
+
+      <TableKeyField FieldID="7" SortKey="0030"/>
+      <TableKeyField FieldID="2" SortKey="0020"/>
+    </TableKey>
+    <TableField Alias="name" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="8" Name="請求名称" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0050"/>
+  <TableKey ID="3" SortKey="010" Type="FK"><TableKeyField FieldID="13" SortKey="0010"/></TableKey></Table><Table Alias="taxes" Descriptions="" ID="13" Name="税率" SortKey="001" SubsystemID="2" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="start_date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="3" Name="開始日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    <TableField Alias="type" AttributeType="NATIVE" DataTypeID="5" Default="" Descriptions="非課税：''、通常税率：'normal'、軽減税率：'reduced'" ID="4" Name="税率区分" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+    <TableField Alias="rounding_type" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="5" Name="端数処理区分" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0050"/>
+    <TableField Alias="rate" AttributeType="NATIVE" DataTypeID="6" Default="" Descriptions="" ID="8" Name="税率" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+    <TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="2" SortKey="010" Type="SK">
+      <TableKeyField FieldID="4" SortKey="0010"/>
+      <TableKeyField FieldID="3" SortKey="0020"/>
+    </TableKey>
+  </Table><Table Alias="payments" Descriptions="" ID="14" Name="入金" SortKey="044" SubsystemID="1" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="date" AttributeType="NATIVE" DataTypeID="7" Default="" Descriptions="" ID="2" Name="入金日" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+    <TableField Alias="amount" AttributeType="NATIVE" DataTypeID="6" Default="" Descriptions="" ID="3" Name="入金額" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    
+    
+    
+    <TableField Alias="contract_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="7" Name="契約ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0050"/>
+    <TableField Alias="note" AttributeType="NATIVE" DataTypeID="10" Default="" Descriptions="" ID="8" Name="摘要" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+    <TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+    <TableKey ID="2" SortKey="010" Type="FK">
+      <TableKeyField FieldID="7" SortKey="0010"/>
+    </TableKey>
+  </Table><Table Alias="payment_allocations" Descriptions="入金作成時に、請求明細を売上日(昇順)、請求日(昇順)、合計金額(降順)にソートして割り付ける。" ID="15" Name="入金割付" SortKey="045" SubsystemID="1" SynchFile="" TableTypeID="1">
+    <TableField Alias="id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="1" Name="ID" NoUpdate="false" NotNull="true" ShowOnModel="true" SortKey="0010"/>
+    <TableField Alias="amount" AttributeType="NATIVE" DataTypeID="6" Default="" Descriptions="" ID="2" Name="割付額" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0020"/>
+    <TableField Alias="billing_detail_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="3" Name="請求明細ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0030"/>
+    <TableField Alias="payment_id" AttributeType="NATIVE" DataTypeID="3" Default="" Descriptions="" ID="4" Name="入金ID" NoUpdate="true" NotNull="true" ShowOnModel="true" SortKey="0040"/>
+    <TableKey ID="1" SortKey="" Type="PK">
+      <TableKeyField FieldID="1" SortKey="0010"/>
+    </TableKey>
+    
+    <TableKey ID="3" SortKey="3" Type="FK">
+      <TableKeyField FieldID="4" SortKey="0010"/>
+    </TableKey>
+    
+  <TableKey ID="4" SortKey="2" Type="SK"><TableKeyField FieldID="3" SortKey="0010"/><TableKeyField FieldID="4" SortKey="0020"/></TableKey><TableKey ID="5" SortKey="3" Type="FK"><TableKeyField FieldID="3" SortKey="0010"/></TableKey></Table><Relationship ExistWhen1="" ExistWhen2="" ID="1" Table1ID="1" Table2ID="2" TableKey1ID="1" TableKey2ID="2" Type="FAMILY"/><Relationship ExistWhen1="" ExistWhen2="" ID="15" Table1ID="7" Table2ID="11" TableKey1ID="1" TableKey2ID="2" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="17" Table1ID="2" Table2ID="11" TableKey1ID="1" TableKey2ID="3" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="21" Table1ID="3" Table2ID="7" TableKey1ID="1" TableKey2ID="3" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="27" Table1ID="10" Table2ID="12" TableKey1ID="1" TableKey2ID="2" Type="FAMILY"/><Relationship ExistWhen1="" ExistWhen2="" ID="29" Table1ID="7" Table2ID="9" TableKey1ID="1" TableKey2ID="2" Type="FAMILY"/><Relationship ExistWhen1="" ExistWhen2="" ID="30" Table1ID="1" Table2ID="9" TableKey1ID="1" TableKey2ID="4" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="32" Table1ID="7" Table2ID="14" TableKey1ID="1" TableKey2ID="2" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="35" Table1ID="14" Table2ID="15" TableKey1ID="1" TableKey2ID="3" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="42" Table1ID="11" Table2ID="12" TableKey1ID="1" TableKey2ID="3" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="43" Table1ID="12" Table2ID="15" TableKey1ID="1" TableKey2ID="5" Type="REFFER"/><Relationship ExistWhen1="" ExistWhen2="" ID="44" Table1ID="3" Table2ID="10" TableKey1ID="1" TableKey2ID="3" Type="FAMILY"/><Relationship ExistWhen1="" ExistWhen2="" ID="45" Table1ID="9" Table2ID="11" TableKey1ID="1" TableKey2ID="4" Type="REFFER"/><Function Descriptions="" DocFile="" FunctionTypeID="1" ID="1" Name="入金状況照会" Parameters="なし" Return="戻りコード" SortKey="21" SubsystemID="1" Summary="請求に対する入金状況を請求月、会員毎に一覧できる。"><IOTable Descriptions="" ID="1" NameExtension="" OpC="" OpD="" OpR="+" OpU="" Position="" SortKey="0030" TableID="14"/><IOTable Descriptions="" ID="2" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0050" TableID="12"/><IOTable Descriptions="" ID="3" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0040" TableID="15"/><IOTable Descriptions="" ID="4" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0010" TableID="3"/><IOTable Descriptions="" ID="5" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0020" TableID="7"/></Function><Function Descriptions="" DocFile="" FunctionTypeID="1" ID="2" Name="入金登録" Parameters="なし" Return="戻りコード" SortKey="23" SubsystemID="1" Summary="入金実績を登録する。同時に入金消込を行う。"><IOTable Descriptions="" ID="1" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="+" Position="" SortKey="0010" TableID="14"/><IOTable Descriptions="" ID="2" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="" Position="" SortKey="0011" TableID="15"/></Function><Function Descriptions="" DocFile="" FunctionTypeID="1" ID="3" Name="会員入金状況" Parameters="なし" Return="戻りコード" SortKey="22" SubsystemID="1" Summary="引数として渡された請求月、会員の入金状況を参照する。"><IOPanel Background="WINDOW" Descriptions="" FormID="" ID="1" ImageText="画面ヘッダーに会員名、請求月、各種残高を表示する。&#xd;#EOL#&#xd;#EOL#画面左に直近の入金実績を表示する。実績一覧の上に入金登録ボタンを付ける。&#xd;#EOL#&#xd;#EOL#画面右に請求月の請求明細を表示する。各明細行に消込チェックボックスを付ける。&#xd;#EOL#チェックが入っている場合、消込済。" Name="会員入金状況" Size="100,30" SortKey="0010"/><IOTable Descriptions="" ID="2" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="+" Position="" SortKey="0040" TableID="14"/><IOTable Descriptions="" ID="3" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="" Position="" SortKey="0050" TableID="15"/><IOTable Descriptions="" ID="4" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0060" TableID="12"/><IOTable Descriptions="" ID="5" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0020" TableID="3"/><IOTable Descriptions="" ID="6" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0030" TableID="7"/></Function><Function Descriptions="テーブルに会員毎の請求を表示する。#EOL#行の右端に一般売上ボタン、請求作成ボタンを配置する。#EOL#行をクリックすると、請求書を表示する。" DocFile="" FunctionTypeID="1" ID="4" Name="請求書作成" Parameters="なし" Return="戻りコード" SortKey="11" SubsystemID="1" Summary="請求を月、会員毎に一覧、作成できる。"><IOTable Descriptions="" ID="1" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="+" Position="" SortKey="0060" TableID="11"/><IOTable Descriptions="" ID="2" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="" Position="" SortKey="0070" TableID="10"/><IOTable Descriptions="" ID="3" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="" Position="" SortKey="0080" TableID="12"/><IOTable Descriptions="" ID="4" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0040" TableID="1"/><IOTable Descriptions="" ID="5" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0050" TableID="2"/><IOTable Descriptions="" ID="6" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0010" TableID="3"/><IOTable Descriptions="" ID="7" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0020" TableID="7"/><IOTable Descriptions="" ID="8" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0030" TableID="9"/><IOTable Descriptions="" ID="9" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0081" TableID="13"/></Function><Function Descriptions="" DocFile="" FunctionTypeID="1" ID="5" Name="一般売上計上" Parameters="なし" Return="戻りコード" SortKey="12" SubsystemID="1" Summary="請求書に含める不定期に発生した売上を計上する。"><IOTable Descriptions="" ID="1" NameExtension="" OpC="+" OpD="+" OpR="+" OpU="+" Position="" SortKey="0060" TableID="11"/><IOTable Descriptions="" ID="2" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0030" TableID="1"/><IOTable Descriptions="" ID="3" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0050" TableID="2"/><IOTable Descriptions="" ID="4" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0010" TableID="3"/><IOTable Descriptions="" ID="6" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0020" TableID="7"/><IOTable Descriptions="" ID="7" NameExtension="" OpC="" OpD="" OpR="+" OpU="" SortKey="0061" TableID="13"/></Function></System>
